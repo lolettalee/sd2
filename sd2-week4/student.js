@@ -19,3 +19,19 @@ class Student {
         return this.firstName + ' ' + this.lastName + this.birthYear;
     }
 }
+
+class Lesson {
+    // array of Students
+    teacherName;
+    roomNumber;
+
+    constructor(teacherName, roomNumber) {
+
+        this.teacherName = teacherName;
+        this.roomNumber = roomNumber;
+    }
+
+    getFormattedName() {
+        return this.teacherName + ' ' + this.roomNumber;
+    }
+}
