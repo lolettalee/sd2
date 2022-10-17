@@ -31,7 +31,7 @@ class Lesson {
         this.roomNumber = roomNumber;
     }
 
-    getFormattedName() {
-        return this.teacherName + ' ' + this.roomNumber;
+    addStudent() {
+        return this.firstName + ' ' + this.lastName + ' ' + courseId;
     }
 }
