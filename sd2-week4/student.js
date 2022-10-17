@@ -31,7 +31,7 @@ class Lesson {
         this.roomNumber = roomNumber;
     }
 
-    addStudent() {
-        return this.firstName + ' ' + this.lastName + ' ' + courseId;
-    }
+    // addStudent(student)
+
+    // getStudents(); array
 }
